@@ -4,6 +4,7 @@ Format into the "secrets" object in Fivetran would be something like: {"url" : "
 
 The "state" gets forwarded on to the URL in the following way:
 
+```
 {
     "state" : {
         // the state from fivetran
@@ -13,3 +14,4 @@ The "state" gets forwarded on to the URL in the following way:
     }
 
 }
+```
